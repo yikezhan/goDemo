@@ -19,7 +19,7 @@ CREATE TABLE `user_info_tab`  (
 
 DROP TABLE IF EXISTS `user_visit_history_tab`;
 CREATE TABLE `user_visit_history_tab`  (
-  `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,   
+  `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT,
   `user_id` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'user info id',
   `goods_id` bigint UNSIGNED NOT NULL DEFAULT 0 COMMENT 'goods id',
   `goods_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'goods name',
